@@ -1,0 +1,12 @@
+{
+  "extends": ["airbnb", "airbnb/hooks"],
+  "env": { "browser": true, "es2021": true },
+  "parserOptions": { "ecmaVersion": 2021, "sourceType": "module", "ecmaFeatures": { "jsx": true } },
+  "plugins": ["react", "react-hooks", "jsx-a11y", "import"],
+  "rules": {
+    "react/jsx-filename-extension": [1, { "extensions": [".jsx"] }],
+    "react/react-in-jsx-scope": "off",
+    "import/prefer-default-export": "off",
+    "react/prop-types": "off"
+  }
+}
